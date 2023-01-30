@@ -25,6 +25,22 @@ curl https://wasmtime.dev/install.sh -sSf | bash
 
 For the benchmarking, I initially wrote a couple of algorithms, such as sortings, but apparently, they need to be CPU-challenging on my machine. Thus, I finally ended up with Fibonacci to challenge the machine (Apple M1). This algorithm can be pretty slow for larger values of n as it involves lots of calculations and has a time complexity of O(2^n).
 
+```
+fn main() {
+    println!("{}",fibo(42));
+}
+
+fn fibo(n: u32) -> u32 {
+
+    if n < 2 {
+        1
+    } else {
+        fibo(n-1) + fibo(n-2)
+    }
+}
+```
+
+
 ### Results:
 
 ```
