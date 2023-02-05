@@ -2,7 +2,8 @@
 
 ## Author: Mohammadreza Ashouir <ashourics@gmail.com>
 
-[![IMAGE ALT TEXT](](https://youtu.be/0c5SmgT1_P8 "Webassembly: Performance Comparison Analysis between Wasmer and WASMTime")
+## Video:
+https://youtu.be/0c5SmgT1_P8
 
 
 Recently I had a project regarding the security and the performance of WASM compilers for a blockchain ecosystem. I realized there are two major WASM interpreters/JITs, especially popular among the blockchain networks, i.e., WASMER and WASMTIME.
